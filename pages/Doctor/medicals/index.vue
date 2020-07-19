@@ -60,7 +60,7 @@
                               >
                             </li>
                             <li class="nav-item">
-                              
+
                             </li>
                           </ul>
                           <!-- Tab panes -->
@@ -145,7 +145,7 @@
                        </h4>
                        <small>Hieght</small>
                      </div>
-                     
+
                   </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
@@ -201,7 +201,7 @@
                        </h4>
                        <small>Pulse Rate</small>
                      </div>
-                     
+
                   </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
@@ -250,9 +250,10 @@
   </div>
 </template>
 <script>
-import Header from '~/components/Doctor/Header'
-import Footer from '~/components/Doctor/Footer'
-import SideBar from '~/components/Doctor/SideBar'
+
+import Header from '~/components/doctor/Header'
+import Footer from '~/components/doctor/Footer'
+import SideBar from '~/components/doctor/SideBar'
 
 export default {
   name: 'Singlefile',
@@ -295,7 +296,7 @@ export default {
       border-radius:0;
       align-self: center;
     }
-    
+
 }
 
 </style>

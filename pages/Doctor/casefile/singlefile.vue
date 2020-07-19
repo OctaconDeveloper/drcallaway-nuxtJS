@@ -64,7 +64,7 @@
                                 class="btn btn-primary va-btn"
                                 to="/doctor/casefile/viewfile"
                                 >View Files</nuxt-link>
-                              
+
                             </li>
                           </ul>
                           <!-- Tab panes -->
@@ -84,11 +84,11 @@
                                   <div class="card-header pl-0 mb-1">
                                     <h6 class="card-title">Complaints</h6>
                                   </div>
-                                  
+
                                     <div class="card-body" style="background:#F8F8F8;border-radius:20px;">
                                         <p>
-                                            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, 
-                                            graphic or web designs. The passage is attributed to an unknown typesetter in the 
+                                            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,
+                                            graphic or web designs. The passage is attributed to an unknown typesetter in the
                                             15th century who is thought to have.
                                         </p>
                                     </div>
@@ -101,10 +101,10 @@
                                   <div class="card-header pl-0 mb-1">
                                     <h6 class="card-title">Diagnosis</h6>
                                   </div>
-                                  
+
                                     <div class="card-body" style="background:#F8F8F8;border-radius:20px;">
                                         <p>
-                                            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, 
+                                            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,
                                             graphic or web designs.
                                         </p>
                                     </div>
@@ -117,7 +117,7 @@
                                   <div class="card-header pl-0 mb-1">
                                     <h6 class="card-title">Prescription</h6>
                                   </div>
-                                  
+
                                     <div class="card-body" style="background:#F8F8F8;border-radius:20px;">
                                         <table class="table data-list-view">
                                     <tbody>
@@ -144,7 +144,7 @@
                                 </section>
                               </div>
                             </div>
-                           
+
                           </div>
                         </div>
                       </div>
@@ -166,9 +166,10 @@
   </div>
 </template>
 <script>
-import Header from '~/components/Doctor/Header'
-import Footer from '~/components/Doctor/Footer'
-import SideBar from '~/components/Doctor/SideBar'
+
+import Header from '~/components/doctor/Header'
+import Footer from '~/components/doctor/Footer'
+import SideBar from '~/components/doctor/SideBar'
 
 export default {
   name: 'Singlefile',
@@ -190,6 +191,6 @@ export default {
       font-size: 11px;
       line-height: 15px;
     }
-    
+
 }
 </style>

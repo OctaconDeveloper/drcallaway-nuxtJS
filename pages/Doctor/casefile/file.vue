@@ -60,7 +60,7 @@
                               >
                             </li>
                             <li class="nav-item">
-                              
+
                             </li>
                           </ul>
                           <!-- Tab panes -->
@@ -77,36 +77,36 @@
                                   <div class="card-header  pl-0 mb-1">
                                     <h6 class="card-title">X-Ray Scan Result</h6>
                                   </div>
-                                  
+
                                     <div class="card-body" style="background:#F8F8F8;border-radius:20px;">
                                         <p>
-                                            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, 
-                                            graphic or web designs. The passage is attributed to an unknown typesetter in the 
+                                            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,
+                                            graphic or web designs. The passage is attributed to an unknown typesetter in the
                                             15th century who is thought to have.
                                         </p>
                                         <p>
-                                            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, 
-                                            graphic or web designs. The passage is attributed to an unknown typesetter in the 
+                                            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,
+                                            graphic or web designs. The passage is attributed to an unknown typesetter in the
                                             15th century who is thought to have.
                                         </p>
                                         <p>
-                                            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, 
-                                            graphic or web designs. The passage is attributed to an unknown typesetter in the 
+                                            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,
+                                            graphic or web designs. The passage is attributed to an unknown typesetter in the
                                             15th century who is thought to have.
                                         </p>
                                         <p>
-                                            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, 
-                                            graphic or web designs. The passage is attributed to an unknown typesetter in the 
+                                            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,
+                                            graphic or web designs. The passage is attributed to an unknown typesetter in the
                                             15th century who is thought to have.
                                         </p>
                                     </div>
                                   </div>
                                 </section>
                               </div>
-                              
-                              
+
+
                             </div>
-                            
+
                             </div>
                           </div>
                         </div>
@@ -128,9 +128,10 @@
   </div>
 </template>
 <script>
-import Header from '~/components/Doctor/Header'
-import Footer from '~/components/Doctor/Footer'
-import SideBar from '~/components/Doctor/SideBar'
+
+import Header from '~/components/doctor/Header'
+import Footer from '~/components/doctor/Footer'
+import SideBar from '~/components/doctor/SideBar'
 
 export default {
   name: 'File',

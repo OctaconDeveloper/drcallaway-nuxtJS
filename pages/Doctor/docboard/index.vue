@@ -11,7 +11,7 @@
 
       <div class="app-content content">
         <div class="content-overlay"></div>
-        
+
         <div class="content-wrapper">
           <div class="content-header row">
             <div class="content-header-left col-md-12 col-12 mb-2">
@@ -56,7 +56,7 @@
                             class="avatar-content"
                             style="width: 130px;height:130px;font-size: 124px; "
                           >
-                            
+
                             <ion-icon
                               name="hourglass-outline"
                               size="large"
@@ -97,7 +97,7 @@
                             class="avatar-content"
                             style="width: 130px;height:130px;font-size: 124px;"
                           >
-                            
+
                             <ion-icon
                               name="receipt-outline"
                               size="large"
@@ -118,7 +118,7 @@
                 </div>
               </div>
             </section>
-            
+
             <section id="dashboard-analytics" class="mt-0">
               <div class="row justify-content-center">
                 <div class="col-lg-2 col-md-4 col-6">
@@ -143,7 +143,7 @@
                             class="avatar-content"
                             style="width: 130px;height:130px;font-size: 124px;"
                           >
-                           
+
                             <ion-icon
                               name="mail-outline"
                               size="large"
@@ -184,7 +184,7 @@
                             class="avatar-content"
                             style="width: 130px;height:130px;font-size: 124px;"
                           >
-                           
+
                             <ion-icon
                               name="today-outline"
                               size="large"
@@ -205,7 +205,7 @@
                 </div>
               </div>
             </section>
-            
+
           </div>
         </div>
       </div>
@@ -219,9 +219,10 @@
   </div>
 </template>
 <script>
-import Header from '~/components/Doctor/Header'
-import Footer from '~/components/Doctor/Footer'
-import SideBar from '~/components/Doctor/SideBar'
+
+import Header from '~/components/doctor/Header'
+import Footer from '~/components/doctor/Footer'
+import SideBar from '~/components/doctor/SideBar'
 
 export default {
   name: 'Docboard',
@@ -268,6 +269,6 @@ export default {
                 background: #814BAA;
                 padding: 5px;
             }
-            
+
         }
 </style>

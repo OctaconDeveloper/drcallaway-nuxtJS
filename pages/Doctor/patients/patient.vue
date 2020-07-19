@@ -23,7 +23,7 @@
                 </div>
               </div>
             </div>
-          
+
           </div>
           <div class="content-body">
             <section class="page-users-view">
@@ -96,7 +96,7 @@
                                     </select>
                                   </fieldset>
                                 </div>
-                                
+
                               </div>
                             </fieldset>
                           </form>
@@ -109,7 +109,7 @@
                       </div>
                       <div class="row">
                     <div class="col-md-12">
-                       
+
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item d-flex justify-content-between align-items-center">
                                 <nuxt-link to="#">
@@ -144,9 +144,10 @@
   </div>
 </template>
 <script>
-import Header from '~/components/Doctor/Header'
-import Footer from '~/components/Doctor/Footer'
-import SideBar from '~/components/Doctor/SideBar'
+
+import Header from '~/components/doctor/Header'
+import Footer from '~/components/doctor/Footer'
+import SideBar from '~/components/doctor/SideBar'
 
 export default {
   name: 'Patient',

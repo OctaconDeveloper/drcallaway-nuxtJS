@@ -45,7 +45,7 @@
                         <div class="card-body p-0">
                             <div class="col-lg-12 col-md-12 col-12">
                                 <div class="card chat-application">
-                                    
+
                                     <div class="chat-app-window">
                                         <div class="user-chats pr-0 pl-0">
                                             <div class="m-1"><small class="text-muted">July 15, 2020</small></div>
@@ -126,7 +126,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                     </div>
                                     <hr>
                                     <div class="chat-footer mt-0">
@@ -157,9 +157,10 @@
   </div>
 </template>
 <script>
-import Header from '~/components/Doctor/Header'
-import Footer from '~/components/Doctor/Footer'
-import SideBar from '~/components/Doctor/SideBar'
+
+import Header from '~/components/doctor/Header'
+import Footer from '~/components/doctor/Footer'
+import SideBar from '~/components/doctor/SideBar'
 
 export default {
   name: 'Chats',
