@@ -219,9 +219,9 @@
   </div>
 </template>
 <script>
-import Header from '~/components/customer/Header'
-import Footer from '~/components/customer/Footer'
-import SideBar from '~/components/customer/SideBar'
+import Header from '@/components/customer/Header'
+import Footer from '@/components/customer/Footer'
+import SideBar from '@/components/customer/SideBar'
 
 export default {
   name: 'Dashboard',
@@ -250,7 +250,7 @@ export default {
         }
         @media only screen and (max-width: 768px) {
           /* For mobile phones: */
-          
+
             .csup {
                 width: 30px;
                 height: 30px;
@@ -265,6 +265,6 @@ export default {
                 background: #814BAA;
                 padding: 5px;
             }
-            
+
         }
 </style>
