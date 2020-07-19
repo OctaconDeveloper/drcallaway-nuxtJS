@@ -23,7 +23,7 @@
                 </div>
               </div>
             </div>
-          
+
           </div>
           <div class="content-body">
             <section class="page-users-view">
@@ -92,7 +92,9 @@
   </div>
 </template>
 <script>
-
+import Header from '~/components/customer/Header.vue'
+import Footer from '~/components/customer/Footer.vue'
+import SideBar from '~/components/customer/SideBar.vue'
 
 export default {
   name: 'Dashboard',

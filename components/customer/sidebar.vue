@@ -125,7 +125,9 @@
 </template>
 
 <script>
-export default {}
+export default {
+   name: 'SideBar',
+   }
 </script>
 <style scoped>
 .other-link{
