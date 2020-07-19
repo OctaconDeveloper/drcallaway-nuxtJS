@@ -6,7 +6,7 @@
       data-menu="vertical-menu-modern"
       data-col="2-columns"
     >
-      <Header></Header>
+      <header></header>
       <side-bar></side-bar>
 
       <div class="app-content content">
@@ -206,7 +206,7 @@
       <div class="sidenav-overlay"></div>
       <div class="drag-target"></div>
 
-      <Footer></Footer>
+      <footer></footer>
     </body>
   </div>
 </template>
