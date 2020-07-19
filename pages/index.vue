@@ -1,200 +1,56 @@
 <template>
-  <div>
+<!-- BEGIN: Content-->
     <div class="app-content content">
-      <div class="content-overlay"></div>
-      <div class="header-navbar-shadow"></div>
-      <div class="content-wrapper">
-        <div class="content-header row"></div>
-        <div class="content-body">
-          <section class="row flexbox-container">
-            <div class="col-xl-10 col-12 d-flex justify-content-center">
-              <div class="card bg-authentication rounded-0 mb-0">
-                <div class="row m-0">
-                  <div
-                    class="col-lg-4 d-lg-block d-none text-center align-self-center pl-0 pr-3 py-0"
-                  >
-                    <img
-                      src="app-assets/images/pages/register.jpg"
-                      alt="branding logo"
-                    />
-                  </div>
-                  <div class="col-lg-8 col-12 p-0">
-                    <div class="card rounded-0 mb-0 p-2">
-                      <div class="card-header pt-50 pb-1">
-                        <div class="card-title">
-                          <h4 class="mb-0">PATIENT REGISTRATION</h4>
-                        </div>
-                      </div>
-                      <p class="px-2">
-                        Fill the below form to create a new account.
-                      </p>
-                      <div class="card-content">
-                        <div class="card-body pt-0">
-                          <div class="col-12 pl-0">
-                            <form action="">
-                              <div class="row">
-                                <div class="col-xl-4 col-md-6 col-12 mb-0">
-                                  <fieldset class="form-group">
-                                    <label for="basicInput">First Name:</label>
-                                    <input
-                                      id="basicInput"
-                                      type="text"
-                                      class="form-control"
-                                      placeholder="Enter first name"
-                                    />
-                                  </fieldset>
-                                </div>
-                                <div class="col-xl-4 col-md-6 col-12 mb-0">
-                                  <fieldset class="form-group">
-                                    <label for="basicInput">Last Name:</label>
-                                    <input
-                                      id="basicInput"
-                                      type="text"
-                                      class="form-control"
-                                      placeholder="Enter last name"
-                                    />
-                                  </fieldset>
-                                </div>
-                                <div class="col-xl-4 col-md-6 col-12 mb-0">
-                                  <fieldset class="form-group">
-                                    <label for="basicInput">Email:</label>
-                                    <input
-                                      id="basicInput"
-                                      type="text"
-                                      class="form-control"
-                                      placeholder="Enter email"
-                                    />
-                                  </fieldset>
-                                </div>
-                                <div class="col-xl-4 col-md-6 col-12 mb-0">
-                                  <fieldset class="form-group">
-                                    <label for="basicInput">Phone:</label>
-                                    <input
-                                      id="basicInput"
-                                      type="text"
-                                      class="form-control"
-                                      placeholder="Enter Phone"
-                                    />
-                                  </fieldset>
-                                </div>
-                                <div class="col-xl-4 col-md-6 col-12 mb-0">
-                                  <fieldset class="form-group">
-                                    <label for="basicInput">Password:</label>
-                                    <input
-                                      id="basicInput"
-                                      type="password"
-                                      class="form-control"
-                                      placeholder="Enter Password"
-                                    />
-                                  </fieldset>
-                                </div>
-                                <div class="col-xl-4 col-md-6 col-12 mb-0">
-                                  <fieldset class="form-group">
-                                    <label for="basicInput"
-                                      >Password Confirmation:</label
-                                    >
-                                    <input
-                                      id="basicInput"
-                                      type="password"
-                                      class="form-control"
-                                      placeholder="Enter Password Confirmation"
-                                    />
-                                  </fieldset>
-                                </div>
-                                <div class="col-xl-4 col-md-6 col-12 mb-0">
-                                  <div class="text-bold-100 font-small-2">
-                                    Date-of-Birth:
-                                  </div>
-                                  <fieldset class="form-group">
-                                    <select
-                                      id="customSelect"
-                                      class="custom-select"
-                                      style="width:25%;"
-                                    >
-                                      <option selected>01</option>
-                                      <option value="">02</option>
-                                      <option value="">03</option>
-                                      <option value="">04</option>
-                                    </select>
-                                    <select
-                                      id="customSelect"
-                                      class="custom-select"
-                                      style="width:30%;"
-                                    >
-                                      <option selected>January</option>
-                                      <option value="">February</option>
-                                      <option value="">March</option>
-                                      <option value="">April</option>
-                                      <option value="">May</option>
-                                    </select>
-                                    <select
-                                      id="customSelect"
-                                      class="custom-select"
-                                      style="width:40%;"
-                                    >
-                                      <option selected>1990</option>
-                                      <option value="">1991</option>
-                                      <option value="">1992</option>
-                                      <option value="">1993</option>
-                                    </select>
-                                  </fieldset>
-                                </div>
-                                <div class="col-xl-4 col-md-6 col-12 mb-0">
-                                  <div class="text-bold-100 font-small-2">
-                                    Gender:
-                                  </div>
-                                  <fieldset class="form-group">
-                                    <ul class="list-unstyled mb-0">
-                                      <li class="d-inline-block mr-2">
-                                        <fieldset>
-                                          <label>
-                                            <input
-                                              type="radio"
-                                              name="radio"
-                                              checked
-                                            />
-                                            Male
-                                          </label>
-                                        </fieldset>
-                                      </li>
-                                      <li class="d-inline-block mr-2">
-                                        <fieldset>
-                                          <label>
-                                            <input type="radio" name="radio" />
-                                            Female
-                                          </label>
-                                        </fieldset>
-                                      </li>
-                                    </ul>
-                                  </fieldset>
-                                </div>
-                              </div>
-                              <div class="col-12 pl-0">
-                                <p>
-                                  Already have an account?
-                                  <a href="login.html">login</a>
-                                </p>
-                                <a href="verify.html" class="btn btn-primary">
-                                  Register</a
-                                >
-                              </div>
-                            </form>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+        <div class="content-overlay"></div>
+        <div class="header-navbar-shadow"></div>
+        <div class="content-wrapper">
+            <div class="content-header row">
             </div>
-          </section>
+            <div class="content-body">
+                <section class="row flexbox-container">  
+                    <div class="col-xl-8 col-11 d-flex justify-content-center">
+                        <div class="card rounded-0 mb-0">
+                            <div class="row m-0">
+                                <div class="col-lg-12" style="display:flex;justify-content: center;">
+                                    <img src="~assets/img/logo/Drcallaway-logo.png" class="mb-2 mt-1" width="100px" height="90px">
+                                    <!-- <h2 class="brand-text mb-2 mt-1" style="align-self: center;">Drcallaway</h2> -->
+                                </div>
+                                <div class="col-lg-12 col-12 p-0" >
+                                    <div class="card rounded-0 mb-0 px-2">
+                                        <!-- <div class="card-header pb-1">
+                                            <div class="card-title text-center d-flex justify-content-center">
+                                                <h3 class="px-3 text-center align-self-center">Verify Your Account</h3>
+                                            </div>
+                                        </div> -->
+                                        <div class="card-title">
+                                            <h3 class="text-center"><u>Drcallaway</u></h3>
+                                        </div>
+                                        <p class=" text-center">Welcome to a world where we literally treat health as wealth.</p>
+                                        <ion-icon name="chevron-down-outline" style="align-self:center;text-alifgn:center"></ion-icon>
+                                        <div class="card-content">
+                                            <div class="card-body pt-1 d-flex justify-content-center">
+                                                <nuxt-link to="/patients/signup" style="text-align: center;">Patient | </nuxt-link>
+                                                <nuxt-link to="/doctor/signup" style="text-align: center;"> Doctor | </nuxt-link>
+                                                <nuxt-link to="#" style="text-align: center;"> Phamarcy</nuxt-link>
+                                            </div>
+                                        </div>
+                                        <div class="login-footer">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </template>
-<script>
+    <!-- END: Content-->
+    <script>
 export default {
-  name: 'Register'
+  name: 'Home'
 }
 </script>

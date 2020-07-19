@@ -32,10 +32,34 @@ export default {
       {rel: 'stylesheet', href: '/app-assets/css/pages/data-list-view.css'},
       {rel: 'stylesheet', href: '/app-assets/css/core/menu/menu-types/vertical-menu.css'},
       {rel: 'stylesheet', href: '/app-assets/css/core/colors/palette-gradient.css'},
+      {rel: 'stylesheet', href: '/app-assets/css/pages/dashboard-ecommerce.css'},
+      {rel: 'stylesheet', href: '/app-assets/css/pages/app-user.css'},
       {rel: 'stylesheet', href: '/app-assets/css/pages/authentication.css'},
       {rel: 'stylesheet', href: '/app-assets/vendors/css/vendors.min.css'},
-    ]
-  },
+      {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600'}
+    ],
+     // Load all javascript codes here
+  script: [
+    {type: 'text/javascript', src: '/app-assets/vendors/js/vendors.min.js', defer: true},
+    {type: 'text/javascript', src: '/app-assets/vendors/js/forms/select/select2.full.min.js', defer: true},
+    {type: 'text/javascript', src: '/app-assets/vendors/js/tables/datatable/datatables.bootstrap4.min.js', defer: true},
+    {type: 'text/javascript', src: '/app-assets/vendors/js/ui/prism.min.js', defer: true},
+    {type: 'text/javascript', src: '/app-assets/vendors/js/charts/apexcharts.min.js', defer: true},
+    {type: 'text/javascript', src: '/app-assets/js/core/app-menu.js', defer: true},
+    {type: 'text/javascript', src: '/app-assets/js/core/app.js', defer: true},
+    {type: 'text/javascript', src: '/app-assets/js/scripts/cards/card-analytics.js', defer: true},
+    {type: 'text/javascript', src: '/app-assets/js/scripts/ui/data-list-view.js', defer: true},
+    {type: 'text/javascript', src: '/app-assets/vendors/js/extensions/dropzone.min.js'},
+    {type: 'text/javascript', src: 'https://unpkg.com/ionicons@5.1.2/dist/ionicons.js'},
+    {type: 'text/javascript', src: '/app-assets/vendors/js/tables/datatable/datatables.min.js'},
+    {type: 'text/javascript', src: '/app-assets/vendors/js/tables/datatable/datatables.buttons.min.js'},
+    {type: 'text/javascript', src: '/app-assets/vendors/js/tables/datatable/buttons.bootstrap.min.js'},
+    {type: 'text/javascript', src: '/app-assets/vendors/js/tables/datatable/dataTables.select.min.js'},
+    {type: 'text/javascript', src: '/app-assets/vendors/js/tables/datatable/datatables.checkboxes.min.js'},
+    {type: 'text/javascript', src: '/app-assets/js/scripts/components.js'},
+  ],
+},
+
   /*
    ** Customize the progress-bar color
    */
@@ -47,18 +71,7 @@ export default {
     '~assets/css/style.css',
   ],
 
-  // Load all javascript codes here
-  script: [
-    {type: 'text/javascript', src: '/app-assets/vendors/js/vendors.min.js', defer: true},
-    {type: 'text/javascript', src: '/app-assets/vendors/js/forms/select/select2.full.min.js'},
-    {type: 'text/javascript', src: '/app-assets/vendors/js/tables/datatable/datatables.bootstrap4.min.js'},
-    {type: 'text/javascript', src: '/app-assets/vendors/js/ui/prism.min.js'},
-    {type: 'text/javascript', src: '/app-assets/vendors/js/charts/apexcharts.min.js'},
-    {type: 'text/javascript', src: '/app-assets/js/core/app-menu.js'},
-    {type: 'text/javascript', src: '/app-assets/js/core/app.js'},
-    {type: 'text/javascript', src: '/app-assets/js/scripts/cards/card-analytics.js'},
-    {type: 'text/javascript', src: '/app-assets/js/scripts/ui/data-list-view.js'},
-  ],
+
 
 
   /*
