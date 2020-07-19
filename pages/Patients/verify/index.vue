@@ -7,12 +7,12 @@
             <div class="content-header row">
             </div>
             <div class="content-body">
-                <section class="row flexbox-container">  
+                <section class="row flexbox-container">
                     <div class="col-xl-8 col-11 d-flex justify-content-center">
                         <div class="card rounded-0 mb-0">
                             <div class="row m-0">
                                 <div class="col-lg-12" style="display:flex;justify-content: center;">
-                                    <img src="~assets/img/logo/Drcallaway-logo.png" class="mb-2 mt-1" width="45px" height="40px">
+                                    <img src="~assets/img/logo/drcallaway-logo.png" class="mb-2 mt-1" width="45px" height="40px">
                                     <h2 class="brand-text mb-2 mt-1" style="align-self: center;">Drcallaway</h2>
                                 </div>
                                 <div class="col-lg-12 col-12 p-0" >
@@ -33,7 +33,7 @@
                                             </div>
                                         </div>
                                         <div class="login-footer">
-                                            
+
                                         </div>
                                     </div>
                                 </div>
