@@ -18,7 +18,7 @@
               <div class="row breadcrumbs-top">
                 <div class="col-12">
                   <h4 class="content-header-title float-left mb-0">
-                    Consultations
+                    Prescription
                   </h4>
                 </div>
               </div>
@@ -34,42 +34,32 @@
                     <table class="table data-list-view">
                       <tbody>
                         <tr>
-                          <td class="product-name">Talk to a Doctor</td>
+                          <td class="product-name">New Prescription (3) </td>
                           <td>
                             <nuxt-link
-                              to="waiting"
+                              to="prescription/new"
                               class="btn btn-sm btn-primary float-right"
-                              >Proceed</nuxt-link
-                            >
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="product-name">Schedule Home Visit</td>
-                          <td>
-                            <nuxt-link
-                              to="schedulehome"
-                              class="btn btn-sm btn-primary float-right"
-                              >Book</nuxt-link
-                            >
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="product-name">Case File</td>
-                          <td>
-                            <nuxt-link
-                              to="casefile"
-                              class="btn btn-sm btn-outline-primary float-right"
                               >View</nuxt-link
                             >
                           </td>
                         </tr>
                         <tr>
-                          <td class="product-name">Request For a Nurse</td>
+                          <td class="product-name">Pending Prescribed drugs (2)</td>
                           <td>
                             <nuxt-link
-                              to="requestnurse"
+                              to="prescription/pending"
                               class="btn btn-sm btn-primary float-right"
-                              >Request</nuxt-link
+                              >View</nuxt-link
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="product-name">Completed Prescribed drugs (5)</td>
+                          <td>
+                            <nuxt-link
+                              to="prescription/completed"
+                              class="btn btn-sm btn-primary float-right"
+                              >View</nuxt-link
                             >
                           </td>
                         </tr>
@@ -92,9 +82,9 @@
   </div>
 </template>
 <script>
-import Header from '~/components/customer/Header'
-import Footer from '~/components/customer/Footer'
-import SideBar from '~/components/customer/SideBar'
+import Header from '~/components/pharmacy/Header'
+import Footer from '~/components/pharmacy/Footer'
+import SideBar from '~/components/pharmacy/SideBar'
 
 export default {
   name: 'Dashboard',

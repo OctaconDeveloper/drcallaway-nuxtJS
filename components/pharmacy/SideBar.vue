@@ -36,59 +36,39 @@
           data-menu="menu-navigation"
         >
           <li class="nav-item active">
-            <nuxt-link to="dashboard"
+            <nuxt-link to="/pharmacy/dashboard"
               ><i class="feather icon-home"></i
               ><span class="menu-title" data-i18n="Dashboard">Dashboard</span
-              >
-              <!-- <span class="badge badge badge-warning badge-pill float-right"
+              ><span class="badge badge badge-warning badge-pill float-right"
                 >2</span
-              > -->
-              </nuxt-link
+              ></nuxt-link
             >
           </li>
           <hr />
-          <li class=" nav-item">
-            <nuxt-link to="waiting"
-              ><i class="feather icon-phone"></i>
-              <span class="menu-title">Call a Doctor</span>
-            </nuxt-link>
-          </li>
 
           <li class=" nav-item">
             <nuxt-link to="profile"
-              ><ion-icon name="person-outline" style="margin-right:1em;"></ion-icon>
+              ><i class="feather icon-user"></i>
               <span class="menu-title">Profile</span>
             </nuxt-link>
           </li>
           <li class=" nav-item ">
-            <nuxt-link to="medical-history"
-              ><ion-icon name="calendar-outline" style="margin-right:1em;"></ion-icon>
-              <span class="menu-title">Medical History</span>
+            <nuxt-link to="/pharmacy/prescription"
+              ><i class="fa fa-list-alt "></i>
+              <span class="menu-title">Prescriptions</span>
             </nuxt-link>
           </li>
 
           <li class=" nav-item">
-            <nuxt-link to="consultation"
-              ><i class="feather icon-users"></i>
-              <span class="menu-title">Consultation Room</span>
+            <nuxt-link to="/pharmacy/delivery"
+              ><i class="fa fa-shopping-cart"></i>
+              <span class="menu-title">Delivery and Pickup</span>
             </nuxt-link>
           </li>
           <li class=" nav-item">
-            <nuxt-link to="referal"
-              ><ion-icon name="people-outline" style="margin-right:1em;"></ion-icon>
-              <span class="menu-title">Referral</span>
-            </nuxt-link>
-          </li>
-          <li class=" nav-item">
-            <nuxt-link to="subscription-plan"
-              ><ion-icon name="card-outline" style="margin-right:1em;"></ion-icon>
-              <span class="menu-title">Subscription Plan</span>
-            </nuxt-link>
-          </li>
-          <li class=" nav-item">
-            <nuxt-link to="emergency"
-              ><i class="fa fa-ambulance"></i>
-              <span class="menu-title">Ambulance</span>
+            <nuxt-link to="/pharmacy/message"
+              ><i class="fa fa-envelope"></i>
+              <span class="menu-title">Message</span>
             </nuxt-link>
           </li>
         </ul>
@@ -99,21 +79,21 @@
           data-menu="menu-navigation"
         >
           <li class=" nav-item">
-            <nuxt-link to="help"
-              ><ion-icon name="information-circle-outline" style="margin-right:1em;"></ion-icon>
-              <span class="menu-title">Help Desk</span>
+            <nuxt-link to="/pharmacy/help"
+              ><i class="feather icon-alert-circle"></i
+              ><span class="menu-title">Help Desk</span>
             </nuxt-link>
           </li>
           <li class=" nav-item">
-            <nuxt-link to="change-password"
-              ><ion-icon name="medical-outline" style="margin-right:1em;"></ion-icon>
-              <span class="menu-title">Change Password</span>
+            <nuxt-link to="/pharmacy/change-password"
+              ><i class="feather icon-settings"></i
+              ><span class="menu-title">Change Password</span>
             </nuxt-link>
           </li>
           <li class=" nav-item">
-            <nuxt-link to="../logout"
-              ><ion-icon name="enter-outline" style="margin-right:1em;"></ion-icon>
-              <span class="menu-title" data-i18n="Raise Support"
+            <nuxt-link to="~/logout"
+              ><i class="feather icon-arrow-left-circle"></i
+              ><span class="menu-title" data-i18n="Raise Support"
                 >Logout</span
               ></nuxt-link
             >
@@ -127,10 +107,3 @@
 <script>
 export default {}
 </script>
-<style scoped>
-.other-link{
-    position:fixed;
-    bottom:0;
-    left:0;
-}
-</style>

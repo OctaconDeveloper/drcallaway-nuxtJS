@@ -13,7 +13,7 @@
         <div class="content-overlay"></div>
         <div class="header-navbar-shadow"></div>
         <div class="content-wrapper">
-          <div class="content-header row justify-content-center">
+          <div class="content-header row">
             <div class="content-header-left col-md-5 col-12 mb-2">
               <div class="row breadcrumbs-top">
                 <div class="col-12">
@@ -115,9 +115,9 @@
   </div>
 </template>
 <script>
-import Header from '~/components/customer/Header'
-import Footer from '~/components/customer/Footer'
-import SideBar from '~/components/customer/SideBar'
+import Header from '~/components/pharmacy/Header'
+import Footer from '~/components/pharmacy/Footer'
+import SideBar from '~/components/pharmacy/SideBar'
 
 export default {
   name: 'Dashboard',

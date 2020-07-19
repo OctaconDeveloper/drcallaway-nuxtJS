@@ -34,7 +34,7 @@
           <div class="content-body">
             <section id="dashboard-analytics" class="mb-0">
               <div class="row justify-content-center">
-                <div class="col-lg-2 col-md-4 col-6 pb-0">
+                <div class="col-lg-2 col-md-4 col-12 pb-0">
                   <sup class=""
                     ><span
                       class="badge badge-danger csup"
@@ -75,7 +75,7 @@
                     </div>
                   </nuxt-link>
                 </div>
-                <div class="col-lg-2 col-md-4 col-6 pb-0">
+                <div class="col-lg-2 col-md-4 col-12 pb-0">
                   <sup
                     ><span
                       class="badge badge-danger csup"
@@ -121,7 +121,7 @@
             <!-- Dashboard Analytics end -->
             <section id="dashboard-analytics" class="mt-0">
               <div class="row justify-content-center">
-                <div class="col-lg-2 col-md-4 col-6">
+                <div class="col-lg-2 col-md-4 col-12">
                   <sup
                     ><span
                       class="badge badge-danger csup"
@@ -162,7 +162,7 @@
                     </div>
                   </nuxt-link>
                 </div>
-                <div class="col-lg-2 col-md-4 col-6">
+                <div class="col-lg-2 col-md-4 col-12">
                   <sup
                     ><span
                       class="badge badge-danger csup"
@@ -219,9 +219,9 @@
   </div>
 </template>
 <script>
-import Header from '~/components/customer/Header'
-import Footer from '~/components/customer/Footer'
-import SideBar from '~/components/customer/SideBar'
+import Header from '~/components/pharmacy/Header'
+import Footer from '~/components/pharmacy/Footer'
+import SideBar from '~/components/pharmacy/SideBar'
 
 export default {
   name: 'Dashboard',
@@ -232,39 +232,3 @@ export default {
   }
 }
 </script>
-<style scoped>
-  .csup {
-      width: 40px;
-      height: 40px;
-      top: 50px;
-      left:110px;
-      z-index:1;
-      position: relative;
-      font-size: 12px;
-      border-radius: 50%;
-      line-height: 25px;
-      background: #814BAA;
-  }
-        .a-card:hover .card{
-            box-shadow: 0 5px 35px 0 rgba(204, 204, 204, 0.1);
-        }
-        @media only screen and (max-width: 768px) {
-          /* For mobile phones: */
-          
-            .csup {
-                width: 30px;
-                height: 30px;
-                top: 20px;
-                left: 120px;
-                z-index: 1;
-                position: absolute;
-                font-size: 16px !important;
-                border-radius: 50%;
-                line-height: 23px;
-                text-align: center;
-                background: #814BAA;
-                padding: 5px;
-            }
-            
-        }
-</style>

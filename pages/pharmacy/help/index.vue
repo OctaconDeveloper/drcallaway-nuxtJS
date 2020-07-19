@@ -17,13 +17,28 @@
             <div class="content-header-left col-md-5 col-12 mb-2">
               <div class="row breadcrumbs-top">
                 <div class="col-12">
-                  <h4 class="content-header-title float-left mb-0">
+                  <h2 class="content-header-title float-left mb-0">
                     Help Desk
-                  </h4>
+                  </h2>
                 </div>
               </div>
             </div>
-          
+            <div
+              class="content-header-right text-md-right col-md-3 col-12 d-md-block d-none"
+            >
+              <div class="form-group breadcrum-right">
+                <div class="dropdown">
+                  <button
+                    class="btn-icon btn btn-primary btn-round btn-sm"
+                    type="button"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <i class="feather icon-edit-2"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="content-body">
             <section class="page-users-view">
@@ -69,7 +84,7 @@
                           </form>
                         </div>
                         <div class="col-12 d-flex justify-content-start">
-                          <nuxt-link to="#" class="btn btn-primary"
+                          <nuxt-link to="editprofile" class="btn btn-primary"
                             ><i class="feather"></i> Send</nuxt-link
                           >
                         </div>
@@ -92,9 +107,9 @@
   </div>
 </template>
 <script>
-import Header from '~/components/customer/Header'
-import Footer from '~/components/customer/Footer'
-import SideBar from '~/components/customer/SideBar'
+import Header from '~/components/pharmacy/Header'
+import Footer from '~/components/pharmacy/Footer'
+import SideBar from '~/components/pharmacy/SideBar'
 
 export default {
   name: 'Dashboard',
