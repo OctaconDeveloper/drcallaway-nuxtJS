@@ -6,8 +6,8 @@
       data-menu="vertical-menu-modern"
       data-col="2-columns"
     >
-      <Header></Header>
-      <side-bar></side-bar>
+      <header></header>
+      <sidebar></sidebar>
 
       <div class="app-content content">
         <div class="content-overlay"></div>
@@ -87,14 +87,14 @@
       <div class="sidenav-overlay"></div>
       <div class="drag-target"></div>
 
-      <Footer></Footer>
+      <footer></footer>
     </body>
   </div>
 </template>
 <script>
-import Header from '~/components/customer/Header.vue'
-import Footer from '~/components/customer/Footer.vue'
-import SideBar from '~/components/customer/SideBar.vue'
+import Header from '~/components/customer/header'
+import Footer from '~/components/customer/footer'
+import SideBar from '~/components/customer/sidebar'
 
 export default {
   name: 'Dashboard',

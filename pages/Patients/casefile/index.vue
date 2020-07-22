@@ -7,7 +7,7 @@
       data-col="2-columns"
     >
       <header></header>
-      <side-bar></side-bar>
+      <sidebar></sidebar>
 
       <div class="app-content content">
         <div class="content-overlay"></div>
@@ -211,9 +211,9 @@
   </div>
 </template>
 <script>
-import Header from '~/components/customer/Header.vue'
-import Footer from '~/components/customer/Footer.vue'
-import SideBar from '~/components/customer/SideBar.vue'
+import Header from '~/components/customer/header'
+import Footer from '~/components/customer/footer'
+import SideBar from '~/components/customer/sidebar'
 
 export default {
   name: 'Dashboard',
